@@ -6,11 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/Digimon-Deck-Builder.png";
-import project2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
-import project3 from "../../public/images/projects/fashion-studio-website.jpg";
-import project4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import project5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import project6 from "../../public/images/projects/devdreaming.jpg";
+import project2 from "../../public/images/projects/Movie-Mania.png";
+import project3 from "../../public/images/projects/RickandMortyMatchingGame.png";
+import project4 from "../../public/images/projects/PortfolioWebsite.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -171,17 +169,17 @@ const projects = () => {
                 type="Website"
                 title="Movie Mania - React UI"
                 img={project2}
-                link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
-                github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                link="https://movie-mania-api.netlify.app/"
+                github="https://github.com/nleung77/MovieMania---React-UI"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Website"
-                title="Fashion Studio Website"
+                title="Rick & Morty Matching Game - Vanilla JS"
                 img={project3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link="https://rm-matching-game.netlify.app/"
+                github="https://github.com/nleung77/RMMatchingGame"
               />
             </div>
 
@@ -189,29 +187,10 @@ const projects = () => {
               <FeaturedProject
                 type="Portfolio Website"
                 title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                summary="A professional portfolio website using React JS, Next JS, Framer-motion,styled-components, and TailWindCSS. It has smooth page transitions, unique design and it is mobile responsive."
                 img={project4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
+                link="https://portfolio-nleung77.netlify.app/"
                 github="https://github.com/codebucks27/react-portfolio-final"
-              />
-            </div>
-
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Website Template"
-                img={project5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Blog Website"
-                img={project6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
               />
             </div>
           </div>
