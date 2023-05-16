@@ -7,7 +7,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.jpg";
-import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 
 export default function Home() {
   return (
@@ -20,7 +19,7 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light sm:items-start">
         <Layout className="pt-0 md:pt-16 sm:pt-16">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="w-1/2 md:w-full">
+            <div className="w-2/5 md:w-full">
               <Image
                 src={profilePic}
                 alt="profile pic"
@@ -45,7 +44,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="public/Resume.pdf"
+                  href="https://docs.google.com/document/d/11mLiM6be2RsCBt4sfbXskXgGvtvg7CbkUf5DqcVNqIM/edit?usp=sharing"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
@@ -71,9 +70,6 @@ export default function Home() {
         </Layout>
 
         <HireMe />
-        <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
-          <Image src={lightBulb} alt="light bulb" className="w-full h-auto" />
-        </div>
       </main>
     </>
   );
