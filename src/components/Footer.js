@@ -18,7 +18,7 @@ const Footer = () => {
           </span>
           by&nbsp;
           <Link
-            href="mailto:nleung77@gmail.com"
+            href="linkedin.com/in/nleung77"
             className="underline
             underline-offset-2
             "
