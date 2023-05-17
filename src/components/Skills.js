@@ -42,7 +42,7 @@ const Skills = () => {
           Full Stack Dev
         </motion.div>
 
-        <Skill name="HTML" x="-20vw" y="2vw" />
+        <Skill name="Express" x="-20vw" y="2vw" />
         <Skill name="Posgresql" x="-5vw" y="-10vw" />
         <Skill name="Javascript" x="20vw" y="6vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
