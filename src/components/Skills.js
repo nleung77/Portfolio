@@ -43,7 +43,7 @@ const Skills = () => {
         </motion.div>
 
         <Skill name="Express" x="-20vw" y="2vw" />
-        <Skill name="Posgresql" x="-5vw" y="-10vw" />
+        <Skill name="PostgreSQL" x="-5vw" y="-10vw" />
         <Skill name="Javascript" x="20vw" y="6vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
         <Skill name="NextJS" x="-20vw" y="-15vw" />
