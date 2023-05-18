@@ -56,11 +56,11 @@ const about = () => {
               <p className="font-medium">Hi, I&apos;m Nelson.</p>
 
               <p className="my-4 font-medium">
-                As a highly motivated and detail–oriented full–stack developer
-                with a passion for front–end development and experience in
-                quality assurance, I bring a unique perspective to creating
-                visually appealing and intuitive user interfaces that drive
-                engagement and success. I&apos;m committed to crafting
+                I&apos;m a highly motivated and detail–oriented full–stack
+                developer with a passion for front–end development as well as
+                experience in quality assurance. I bring a unique perspective to
+                creating visually appealing and intuitive user interfaces that
+                drive engagement and success. I&apos;m committed to crafting
                 exceptional user experiences that solve real–world problems.
                 With my meticulous attention to detail and natural collaboration
                 skills, I thrive in team environments where I can contribute to
